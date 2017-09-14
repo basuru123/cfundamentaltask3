@@ -1,7 +1,8 @@
 /*******************************************************************************
 48430 Embedded C - Assignment 1
-Names: Sanjeet Sharma, Sathira Wickramanayaka, Basuru Sooriyaarachchi
-Student ID: 11742501
+Names: Sanjeet Sharma, Sathira Wickramanayaka, Basuru Sooriyaarachchi, 
+Jai Ghorpade
+Student ID: 11742501, , ,12916110
 Date of submission: 15/09/2017
 *******************************************************************************/
 
@@ -39,11 +40,26 @@ Function prototypes
 void printMenu();
 void inputPassData(accountdata_t* adp, char account[], char username[],
                    char password[]);
-
+void encryptData();
+void decryptData();
 /*******************************************************************************
 Main
 *******************************************************************************/
 int main(void)
 {
 
+}
+/*******************************************************************************
+Data Encryption
+*******************************************************************************/
+int encryptData()
+{
+               
+}
+/*******************************************************************************
+Data De-encryption
+*******************************************************************************/
+int decryptData()
+{
+               
 }
